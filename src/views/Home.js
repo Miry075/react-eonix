@@ -12,7 +12,7 @@ function Home({ onIncrement, onDecrement, counter }) {
   };
   return (
     <div className="row d-flex justify-content-around">
-      <h2 className={`text-center ${counter == 0 ? "text-danger" : ""}`}>
+      <h2 className={`text-center ${counter === 0 ? "text-danger" : ""}`}>
         {counter}
       </h2>
       <div className="col-md-6 text-center">
